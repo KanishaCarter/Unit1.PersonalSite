@@ -1,3 +1,4 @@
+
 body {
     background-color: rgb(247, 196, 204);
 }
@@ -7,7 +8,9 @@ h1 {
     font-size: 35px;
     margin-left: 20px;
 }
-
+h2 {
+    font-size: 35px;
+}
 a {
     color: rgb(248, 88, 115);
     margin-left: 40px;
@@ -29,7 +32,7 @@ header {
 }
 
 footer {
-    position: fixed;
+    position: fixed; /*keeps footer in a set position*/
     bottom: 0;
     width: 100%;
     background: navy;
@@ -42,7 +45,7 @@ footer {
 
 p {
     font-family: cursive;
-    font-size: 20px;
+    font-size: 15px;
     color: rgb(87, 82, 82);
 }
 img {
@@ -63,7 +66,7 @@ img {
     height: 60vh; /* Optional: Adjust height */
 }
 
-/* Style the box around the <p> */
+/* Style the box around the introduction */
 .intro-box {
     background: #f4f4f4; /* Light background color */
     padding: 10px;
@@ -77,4 +80,7 @@ img {
     margin-top: 10px; /* Adds space between text and image */
     width: 200px; /* Adjust size */
     height: auto;
+}
+.project-link {
+    font-size: smaller;
 }
