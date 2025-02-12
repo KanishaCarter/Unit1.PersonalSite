@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(247, 196, 204);
+}
+h1 {
+    color: rgb(248, 88, 115);
+    font-size: 27px;
+    margin-left: 20px;
+
+}
+a {
+    color: rgb(248, 88, 115);
+    margin-left:40px;
+    font-size: 25px;
+}
+.nav-links {
+    margin-left: 1100px;
+}
+header {
+    background-color: navy;
+    border: 5px solid white;
+}
+.page-header {
+    text-align: center;
+    font-style: italic;
+}
+img {
+    height: 15%;
+    width: 15%;
+    align-items: center;
+}
+
